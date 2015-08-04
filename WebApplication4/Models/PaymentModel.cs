@@ -8,7 +8,7 @@ using WebApplication4.Binders;
 
 namespace WebApplication4.Models
 {
-   [ModelBinder(typeof(FormModelBinder))]
+    [ModelBinder(typeof(FormModelBinder))]
     public class PaymentModel
     {
         public PaymentModel()
